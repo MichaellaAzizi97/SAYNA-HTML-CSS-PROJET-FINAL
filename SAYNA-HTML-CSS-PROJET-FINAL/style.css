@@ -1,0 +1,344 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+.header a
+{
+    display: flex;
+    color: #eee;
+}
+.header img
+{
+    width: 50px;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d35649;
+}
+.menu
+{
+    color: #eee;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.menu a
+{
+    color: #eee;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.menu a:hover
+{
+    color: #98a5a5;
+}
+i
+{
+    margin-right: 10px;
+}
+.gateway
+{
+    background-image: url(assets/Images/group-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    padding: 100px;
+    text-align: center;
+}
+.Box h1
+{
+    color: #eee;
+}
+.titre
+{
+    color: #d35649;
+    text-align: center;
+}
+.barre
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.étape
+{
+    width: 50%;
+    padding: 40px;
+}
+.étape img
+{
+    width: 60px;
+    margin-bottom: -30px;
+}
+.search
+{
+    background-color: #eee;
+    opacity: 70%;
+    padding: 30px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px; 
+}
+.insert{
+    
+    width: 60%;
+}
+input
+{
+    width: 50%;
+}
+.étape-1
+{
+    display: flex;
+    text-align: center;
+}
+.étape-2
+{
+    display: flex;
+    text-align: center;
+}
+.partie-rouge
+{
+    background-color: #d35649;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.partie-gris
+{
+    background-color: #98a5a5;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.partie-bleu
+{
+    background-color: #509bd7;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.photo img
+{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+.maps img
+{
+    width: 100px;
+    border: 2px solid #eee;
+    border-radius: 50%;
+    filter: brightness(0) invert(1);
+    
+}
+.partie-noire
+{
+    
+    background-color: #1f1f1f;
+
+}
+.interieur
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.horizontal 
+{
+    border-bottom: 2px solid #eee;
+    border-top: 2px solid #eee;
+    padding: 10px;
+}
+.horizontal a
+{
+    color: #eee;
+    text-decoration: none;
+}
+.nav-final
+{
+    display: flex;
+    color: #eee;
+}
+footer
+{
+    background-color: #444;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    color: #98a5a5;
+}
+ul
+{
+    display: flex;
+    list-style: none;
+}
+ul li i
+{
+    margin-right: 15px;
+    color: #98a5a5;
+}
+
+
+.beach-day
+{
+    color: #d35649;
+    text-align: center;
+}
+.rectangle
+{
+    height: 70px;
+    width: 500px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 2px 2px 4px #98a5a5,
+     -2px -2px 4px #98a5a5;
+    margin-right: 100px;
+    padding-top: 15px;
+    margin-bottom: 20px; 
+}
+h3 strong
+{
+    color: #509bd7;
+}
+.tableau
+{
+    display: flex;
+    justify-content: center;  
+}
+.contenu
+{
+    margin-left: 40px;
+    margin-top: 100px;
+    padding: 15px;
+    box-shadow: 2px 2px 4px #98a5a5,
+     -2px -2px 4px #98a5a5; 
+}
+.contenu button
+{
+    background-color: rgb(28, 123, 247);
+    border: 1px solid #98a5a5;
+    color: #eee;
+    height: 50px;
+    width: 70px;
+}
+.contact
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+.formulaire
+{
+    background-color: #eee;
+    padding: 30px;
+    margin-top: 30px;
+}
+.formulaire h1
+{
+    text-align: center;
+    color: #444;
+}
+.loc input
+{
+    width: 100px;
+}
+.date input
+{
+    width: 150px;
+}
+.complete
+{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10%;  
+    padding-right: 10%; 
+}
+
+.photos img
+{
+    width: 250px;
+    height: 200px;
+    background-color: #d35649;
+}
+.photos
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photos figure figcaption
+{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -210px;
+    text-align: center;
+}
+.photos figure figcaption p
+{
+    color: #fff;
+}
+.button-righ{
+    text-align: right;
+    margin-right: 175px;
+}
+.detail{
+    padding:10px 0 ;
+    background-color: #eee; 
+}
+.text-c{
+    text-align: center;
+}
+.flex3{ width: 30%;
+    text-align: center;
+
+}
+.pad{
+    padding: 0 5px 0 5px;
+}
+.blanc{
+    color: #fff;
+}
+.coco{
+    text-decoration: underline;
+}
+@media screen and (max-width: 680px)
+{
+    nav
+    {
+        flex-direction: column;
+    }
+    nav a
+    {
+        display: none;
+    }
+    .icone i 
+    {
+        padding-bottom: 10px;
+        padding-left: 60px;
+    }
+    .différentes-étapes
+    {
+        display: none;
+    }
+    .photo img
+    {
+        border-radius: 50px;
+        width: 500px;
+    }
+    .mots
+    {
+        position: absolute;
+        color: #eee;
+        padding: 70px;
+    }
+}
